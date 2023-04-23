@@ -28,25 +28,37 @@ const styles = StyleSheet.create({
         height: '100%',
         borderTopRightRadius: HEIGHT_ITEM,
         borderBottomRightRadius: HEIGHT_ITEM,
-        resizeMode: 'cover'
+        resizeMode: 'cover',
+        zIndex: 1
     },
     infoSongsCont: {
         flex: 1,
         height: '100%',
         justifyContent: 'space-between',
         paddingLeft: 5,
-        paddingRight: 15,
+        paddingRight: 10,
         paddingVertical: 7
     },
     title: {
         color: COLOR_PRIMARY,
-        fontSize: 15,
+        fontSize: 15.5,
         fontWeight: '500'
     },
     artist: {
         color: COLOR_SECONDARY,
-        fontSize: 12,
-
+        fontSize: 12.5,
+    },
+    menuCont: {
+        height: '100%',
+        width: 25,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    touchIcon: {
+        width: 22,
+        height: 30,
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 })
 
